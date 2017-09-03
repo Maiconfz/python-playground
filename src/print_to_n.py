@@ -1,8 +1,8 @@
 '''
 The program will print from 0 o n
 '''
-n = int(input("n = "))
+N = int(input("n = "))
 
-for x in range(1,n):
-    print(x, end = ' ')
+for x in range(1, N):
+    print(str(x), end=' ')
 print()
